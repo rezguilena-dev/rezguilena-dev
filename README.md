@@ -1,5 +1,5 @@
-## Bonjour à tous ,moi c'est Rezgui Léna
-étudiante passionnée par la sécurité informatique ainsi que l'architecture logicielle, je conçois des systèmes numériques où la performance rencontre la robustesse. ,ma double sensibilité pour le développement d'applications et la défense des systèmes me permet de concevoir des solutions fiables et inébranlables . Bienvenue dans mon portfolio ,reflet de mon évolution technique.
+## Bonjour ,moi c'est Rezgui Léna👋
+🎓 Étudiante passionnée par la sécurité informatique ainsi que l'architecture logicielle, je conçois des systèmes numériques où la performance rencontre la robustesse. ,ma double sensibilité pour le développement d'applications et la défense des systèmes me permet de concevoir des solutions fiables et inébranlables . Bienvenue dans mon portfolio ,reflet de mon évolution technique.
 
 ## Compétences techniques
 
@@ -30,10 +30,22 @@ Développement d'un moteur de détection d'intrusions réseau en temps réel cou
 * **Défis de détection:** : gestion de l'alerte fatigue, calibrage du seuil d'entropie de Shannon face au bruit légitime (ex: pings Windows à haute entropie) pour minimiser les faux positifs sans compromettre la détection des véritables attaques. 
 * **Outils & Stack** : Python ,Scapy,Wireshark, Streamlit 
 
+### [Moteur de Stylométrie Forensique & NLP](https://github.com/rezguilena-dev/ForensicStylometryEngine-NLP)
+Développement d'un moteur d'analyse textuelle pouvant être appliqué à l'investigation numérique : attribution d'auteur et détection de plagiat.
+* **Contexte** : Projet académique - En cours
+* **Défis Algorithmiques** : Implémentation d'un moteur de vectorisation de texte (Bag-of-Words et TF-IDF) couplé à un classifieur probabiliste Naive Bayes.
+* **Défis Deep Learning & NLP** : Développement à bas niveau d'un réseau de neurones  (Perceptron Multicouche),et entraînement de ce réseau sur des représentations vectorielles denses générées par un modèle de langage (BERT). 
+* **Outils & Stack** : Python, Algorithmique avancée, Mathématiques appliquées (Probabilités, Algèbre linéaire), Scikit-Learn, SentenceTransformers.
+* 
 ###  [Gestionnaire de tâches mobile](https://github.com/rezguilena-dev/ReactNative-GraphQL-TodoManager)
 Développement d'un gestionnaire de tâches mobile (avec persistance des données et connexion sécurisée)
 * **Contexte** : Projet académique - L3 informatique 
-* **Défis technique** : Intégration d'une API **GraphQL** couplée à **Neo4j** pour une gestion fluide des données,Implémentation d'une authentification sécurisée par tokens JWT .
+* **Défis technique** : Intégration d'une API **GraphQL** couplée à **Neo4j** pour une gestion fluide des données.
+* **Mécanismes de protection** : 
+    * Authentification par **tokens JWT transmis via les headers HTTP** pour chaque requête GraphQL.
+    * Gestion globale de l'état utilisateur via l'API **Context** de React, assurant la persistance du token.
+    * Utilisation de **requêtes paramétrées**, neutralisant ainsi nativement les risques d'injections.
+    * Gestion complète du cycle de vie des données : de la création sécurisée du compte à la suppression définitive des entrées en base Neo4j.
 * **Outils & Stack** : React Native , Expo , Graphql ,Neo4j
 
 ###  [IA & Analyse de Données - Monde des Blocs](https://github.com/rezguilena-dev/Java-BlocksWorld-AI-DecisionSupport)
@@ -44,6 +56,6 @@ Système décisionnel pour la résolution de problèmes complexes (appliqué au 
 
 ---
 
-## Me contacter :
+##📧Me contacter :
 * [**Mon LinkedIn**](https://www.linkedin.com/in/lena-rezgui-4694973a9/)
 * [**Mon e-mail**](mailto:rezgui.lena@outlook.fr)
